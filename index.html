@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<!-- https://50-jahre-hitparade.ch/ -->
+<html class="has-intro">
+  <head>
+    <meta
+      name="viewport"
+      content="initial-scale=1,user-scalable=no,viewport-fit=cover"
+    />
+    <!-- COMMON TAGS -->
+    <meta charset="utf-8" />
+    <title>50 Years Swiss Music Charts</title>
+    <!-- Search Engine -->
+    <meta
+      name="description"
+      content="A 3D universe dedicated to the best music from 1968 to 2017."
+    />
+    <meta
+      name="image"
+      content="https://50-jahre-hitparade.ch/media/preview.jpg"
+    />
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="50 Years Swiss Music Charts" />
+    <meta
+      itemprop="description"
+      content="A 3D universe dedicated to the best music from 1968 to 2017."
+    />
+    <meta
+      itemprop="image"
+      content="https://50-jahre-hitparade.ch/media/preview.jpg"
+    />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="50 Years Swiss Music Charts" />
+    <meta
+      name="twitter:description"
+      content="A 3D universe dedicated to the best music from 1968 to 2017."
+    />
+    <meta name="twitter:site" content="@hvzh" />
+    <meta
+      name="twitter:image:src"
+      content="https://50-jahre-hitparade.ch/media/preview.jpg"
+    />
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta property="fb:app_id" content="142977416382921" />
+    <meta property="og:title" content="50 Years Swiss Music Charts" />
+    <meta
+      property="og:description"
+      content="A 3D universe dedicated to the best music from 1968 to 2017."
+    />
+    <meta
+      property="og:image"
+      content="https://50-jahre-hitparade.ch/media/preview.jpg"
+    />
+    <meta property="og:url" content="https://50-jahre-hitparade.ch" />
+    <meta property="og:site_name" content="50 Years Swiss Music Charts" />
+    <meta
+      property="og:video"
+      content="https://50-jahre-hitparade.ch/media/preview.mp4"
+    />
+    <meta property="og:video:width" content="733" />
+    <meta property="og:video:height" content="527" />
+    <meta property="og:video:type" content="video/mp4" />
+    <meta property="og:type" content="website" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./map/ico/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./map/ico/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./map/ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./map/ico/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./map/ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./map/ico/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./map/ico/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body,
+      html {
+        height: 100%;
+      }
+      body {
+        background: #050129;
+        color: #fff;
+        -webkit-font-smoothing: antialiased;
+      }
+      body::before {
+        content: "";
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: -webkit-gradient(
+          linear,
+          left top,
+          right top,
+          from(#050129),
+          to(#811a4c)
+        );
+        background-image: linear-gradient(to right, #050129, #811a4c);
+        background-attachment: fixed;
+        opacity: 0;
+        will-change: opacity;
+      }
+      body.has-background::before {
+        -webkit-transition: opacity 1s ease-out;
+        transition: opacity 1s ease-out;
+        will-change: auto;
+        opacity: 1;
+      }
+      ::-webkit-scrollbar {
+        background: #811a4c;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: #050129;
+      }
+      a {
+        color: #eb0071;
+        -webkit-transition: text-shadow 0.25s ease-out;
+        transition: text-shadow 0.25s ease-out;
+      }
+      a:hover {
+        text-shadow: 0 0 20px #fff;
+      }
+      .visuallyhidden {
+        position: absolute !important;
+        clip: rect(0 0 0 0) !important;
+        -webkit-clip-path: polygon(0 0) !important;
+        clip-path: polygon(0 0) !important;
+        overflow: hidden;
+        width: 1px;
+        height: 1px;
+      }
+      @font-face {
+        font-family: Avenir;
+        src: url(media/fonts/e0542193-b2e6-4273-bc45-39d4dfd3c15b.eot?#iefix);
+        src: url(media/fonts/e0542193-b2e6-4273-bc45-39d4dfd3c15b.eot?#iefix)
+            format("eot"),
+          url(media/fonts/17b90ef5-b63f-457b-a981-503bb7afe3c0.woff2)
+            format("woff2"),
+          url(media/fonts/c9aeeabd-dd65-491d-b4be-3e0db9ae47a0.woff)
+            format("woff"),
+          url(media/fonts/25f994de-d13f-4a5d-a82b-bf925a1e054d.ttf)
+            format("truetype"),
+          url(media/fonts/3604edbd-784e-4ca7-b978-18836469c62d.svg#3604edbd-784e-4ca7-b978-18836469c62d)
+            format("svg");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Avenir;
+        src: url(media/fonts/f55e4498-ad48-4577-93a0-c614de5cbbb8.eot?#iefix);
+        src: url(media/fonts/f55e4498-ad48-4577-93a0-c614de5cbbb8.eot?#iefix)
+            format("eot"),
+          url(media/fonts/c78eb7af-a1c8-4892-974b-52379646fef4.woff2)
+            format("woff2"),
+          url(media/fonts/75b36c58-2a02-4057-a537-09af0832ae46.woff)
+            format("woff"),
+          url(media/fonts/b5c44a82-eeb8-41de-9c3f-a8db50b24b8a.ttf)
+            format("truetype"),
+          url(media/fonts/93603a74-2be0-436c-83e1-68f9ef616eaf.svg#93603a74-2be0-436c-83e1-68f9ef616eaf)
+            format("svg");
+        font-weight: 900;
+        font-display: swap;
+      }
+      html {
+        letter-spacing: 0.05em;
+        word-spacing: 0.075em;
+        font-size: 14px;
+        font-family: Avenir, Helvetica;
+        font-weight: 500;
+      }
+      #awwwards {
+        position: fixed;
+        top: calc(50% - 68px);
+        width: 90px;
+        height: 135px;
+        text-indent: -666em;
+        overflow: hidden;
+        z-index: 999;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+        display: none;
+      }
+      #awwwards a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 90px;
+        height: 135px;
+        background-repeat: no-repeat;
+        background-size: 90px 135px;
+      }
+      #awwwards.sotd a {
+        background-image: url(media/awwwards_sotd_white_left.png);
+      }
+      @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (-moz-min-device-pixel-ratio: 1.5),
+        only screen and (-o-min-device-pixel-ratio: 3 / 2),
+        only screen and (min-device-pixel-ratio: 1.5) {
+        #awwwards.sotd a {
+          background-image: url(media/awwwards_sotd_white_left@2x.png);
+        }
+      }
+      @media only screen and (max-width: 800px),
+        only screen and (max-height: 500px) {
+        #awwwards {
+          top: calc(50% - 45px);
+        }
+        #awwwards a {
+          width: 60px;
+          height: 90px;
+          background-size: 60px 90px;
+        }
+      }
+      html.vr #awwwards {
+        display: none;
+      }
+      html.has-overlay {
+        overflow: hidden;
+      }
+      .Stage {
+        -webkit-transition: -webkit-filter 0.2s ease-out;
+        transition: -webkit-filter 0.2s ease-out;
+        transition: filter 0.2s ease-out;
+        transition: filter 0.2s ease-out, -webkit-filter 0.2s ease-out;
+      }
+      html.has-overlay .Stage {
+        -webkit-transition: -webkit-filter 0.25s ease-in;
+        transition: -webkit-filter 0.25s ease-in;
+        transition: filter 0.25s ease-in;
+        transition: filter 0.25s ease-in, -webkit-filter 0.25s ease-in;
+        -webkit-filter: blur(15px);
+        filter: blur(15px);
+      }
+      .Overlay {
+        z-index: 2;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        overflow: hidden;
+      }
+      .Overlay.is-active {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+      .Overlay.is-visible {
+        overflow-x: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+      .Overlay--content {
+        margin: auto;
+        padding: 65px 20px;
+        text-align: center;
+      }
+      .Overlay.is-active .Overlay--content {
+        -webkit-transition: opacity 0.25s ease-in,
+          -webkit-transform 0.25s ease-in;
+        transition: opacity 0.25s ease-in, -webkit-transform 0.25s ease-in;
+        transition: opacity 0.25s ease-in, transform 0.25s ease-in;
+        transition: opacity 0.25s ease-in, transform 0.25s ease-in,
+          -webkit-transform 0.25s ease-in;
+        opacity: 0;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+      .Overlay.is-appearing .Overlay--content {
+        -webkit-transition: opacity 0.5s ease-out,
+          -webkit-transform 0.5s ease-out;
+        transition: opacity 0.5s ease-out, -webkit-transform 0.5s ease-out;
+        transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+        transition: opacity 0.5s ease-out, transform 0.5s ease-out,
+          -webkit-transform 0.5s ease-out;
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+      .Overlay--content {
+        text-transform: uppercase;
+        line-height: 1.4;
+      }
+      .Overlay--content * {
+        max-width: 24em;
+        margin: 0 auto;
+      }
+      .Overlay--content img {
+        max-width: 40em;
+        width: 100%;
+        height: auto;
+      }
+      .Overlay--content .Overlay--logo {
+        width: auto;
+        margin: 0 auto;
+        margin-top: 0.75em;
+      }
+      .Overlay--content .Overlay--logo-small {
+        height: 2.5em;
+      }
+      .Overlay--content .Overlay--logo-large {
+        height: 4em;
+      }
+      .Overlay--content p {
+        margin-bottom: 1em;
+      }
+      .Overlay--content h4 {
+        font-weight: 400;
+        color: #ff649f;
+        margin-top: 1.25em;
+        margin-bottom: 0;
+      }
+      .Overlay--content hr {
+        border: none;
+        height: 2em;
+      }
+      .Overlay--content a {
+        color: #fff;
+        text-decoration: none;
+      }
+      .Overlay--content p a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+        -webkit-transition: border-bottom 0.2s ease-out;
+        transition: border-bottom 0.2s ease-out;
+      }
+      .Overlay--content p a:hover {
+        border-bottom: 1px solid #fff;
+      }
+      .Overlay--close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 25px;
+        height: 25px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+      }
+      .Overlay.is-active .Overlay--close {
+        -webkit-transition: opacity 0.25s ease-in;
+        transition: opacity 0.25s ease-in;
+        opacity: 0;
+      }
+      .Overlay.is-appearing .Overlay--close {
+        -webkit-transition: opacity 0.25s ease-out 0.5s,
+          -webkit-transform 0.25s ease-out 0.5s;
+        transition: opacity 0.25s ease-out 0.5s,
+          -webkit-transform 0.25s ease-out 0.5s;
+        transition: opacity 0.25s ease-out 0.5s, transform 0.25s ease-out 0.5s;
+        transition: opacity 0.25s ease-out 0.5s, transform 0.25s ease-out 0.5s,
+          -webkit-transform 0.25s ease-out 0.5s;
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+      .Overlay--close::after,
+      .Overlay--close::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -70%;
+        width: 140%;
+        height: 2px;
+        background-color: #fff;
+        -webkit-transition: -webkit-transform 0.25s ease-out;
+        transition: -webkit-transform 0.25s ease-out;
+        transition: transform 0.25s ease-out;
+        transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+      }
+      .Overlay--close::before {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+      }
+      .Overlay--close:hover::before {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+      .Overlay--close::after {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+      .Overlay--close:hover::after {
+        -webkit-transform: rotate(495deg);
+        transform: rotate(495deg);
+      }
+      .Overlay--close .Overlay--closeHover {
+        pointer-events: none;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 4.2em;
+        height: 4.2em;
+        background-image: radial-gradient(
+          circle closest-side,
+          rgba(255, 255, 255, 0.25),
+          transparent
+        );
+        opacity: 0;
+        -webkit-transition: opacity 0.35s ease-out;
+        transition: opacity 0.35s ease-out;
+      }
+      .Overlay--close:hover .Overlay--closeHover {
+        opacity: 1;
+      }
+      .recenter-button {
+        position: fixed;
+        z-index: 2;
+        color: #ff649f;
+        top: 50%;
+        left: 50%;
+        border: 1px solid;
+        padding: 5px 11px;
+        border-radius: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.85em;
+        line-height: 1.4;
+        letter-spacing: 0.3em;
+        background: rgba(52, 7, 44, 0.5);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        -webkit-transition: opacity 1s 2s, visibility 1s 2s;
+        transition: opacity 1s 2s, visibility 1s 2s;
+      }
+      .recenter-button > i {
+        font-style: normal;
+        font-size: 1.5em;
+        line-height: 1;
+      }
+      .recenter-button:not(.is-visible) {
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+      }
+      .Stage--canvas canvas {
+        z-index: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        will-change: opacity;
+      }
+      .Stage--canvas.is-active canvas {
+        will-change: auto;
+        -webkit-transition: opacity 1.5s linear;
+        transition: opacity 1.5s linear;
+        opacity: 1;
+      }
+      .TutorialText {
+        pointer-events: none;
+        z-index: 1;
+        position: fixed;
+        bottom: 40px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 17em;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.85em;
+        line-height: 1.4;
+        letter-spacing: 0.3em;
+        opacity: 0;
+        will-change: opacity;
+        -webkit-transition: opacity 0.5s ease-out;
+        transition: opacity 0.5s ease-out;
+      }
+      .TutorialText.is-active {
+        -webkit-transition: opacity 1s ease-out;
+        transition: opacity 1s ease-out;
+        opacity: 1;
+        -webkit-animation: glow 8s infinite;
+        animation: glow 8s infinite;
+      }
+      @-webkit-keyframes glow {
+        35% {
+          text-shadow: 0 0 0 #fff;
+        }
+        50% {
+          text-shadow: 0 0 20px #fff;
+        }
+        65% {
+          text-shadow: 0 0 0 #fff;
+        }
+      }
+      @keyframes glow {
+        35% {
+          text-shadow: 0 0 0 #fff;
+        }
+        50% {
+          text-shadow: 0 0 20px #fff;
+        }
+        65% {
+          text-shadow: 0 0 0 #fff;
+        }
+      }
+      .YearLabel {
+        pointer-events: none;
+        z-index: 1;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        color: #ff649f;
+        text-transform: uppercase;
+        -webkit-perspective: 10vw;
+        perspective: 10vw;
+      }
+      .YearLabel svg {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .YearLabel svg text {
+        font-weight: 900;
+        stroke: #ff649f;
+      }
+      .YearLabel.is-active .YearLabel--intro {
+        display: none;
+      }
+      .LoadingLabel {
+        pointer-events: none;
+        z-index: 1;
+        color: #ff649f;
+        text-transform: uppercase;
+        opacity: 0;
+        -webkit-transition: opacity 0.4s, visibility 0.4s;
+        transition: opacity 0.4s, visibility 0.4s;
+        visibility: hidden;
+        position: fixed;
+        display: block;
+        top: 50%;
+        left: 20%;
+        right: 20%;
+        text-align: center;
+        margin-top: -1em;
+      }
+      .LoadingLabel.is-active {
+        opacity: 1;
+        visibility: visible;
+      }
+      #vr-orientation-message {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 10px;
+      }
+      @media only screen and (orientation: portrait) {
+        html.vr #vr-orientation-message {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+      .YearLabel--large,
+      .YearLabel--line {
+        display: block;
+        opacity: 0;
+        -webkit-transform: translateZ(10vw);
+        transform: translateZ(10vw);
+        will-change: opacity, transform;
+      }
+      .YearLabel.is-appearing .YearLabel--large,
+      .YearLabel.is-appearing .YearLabel--line {
+        will-change: auto;
+        -webkit-transition: opacity 1s linear,
+          -webkit-transform 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: opacity 1s linear,
+          -webkit-transform 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: opacity 1s linear,
+          transform 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: opacity 1s linear,
+          transform 2s cubic-bezier(0.165, 0.84, 0.44, 1),
+          -webkit-transform 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+      .YearLabel.is-disappearing .YearLabel--large,
+      .YearLabel.is-disappearing .YearLabel--line {
+        -webkit-transition: opacity 1s ease-in;
+        transition: opacity 1s ease-in;
+        opacity: 0;
+      }
+      .YearLabel--large {
+        width: 16vmin;
+        margin-left: -0.3vmin;
+      }
+      .YearLabel--small {
+        margin-top: -2.75vmin;
+        position: absolute;
+        display: block;
+        white-space: nowrap;
+      }
+      .YearLabel--line {
+        width: 31vmin;
+      }
+      .YearLabel--line:not(:first-child) {
+        margin-top: -1.5vmin;
+      }
+      .YearLabel.is-appearing .YearLabel--line:nth-of-type(1) {
+        -webkit-transition-delay: 0.2s;
+        transition-delay: 0.2s;
+      }
+      .YearLabel.is-appearing .YearLabel--line:nth-of-type(2) {
+        -webkit-transition-delay: 0.4s;
+        transition-delay: 0.4s;
+      }
+      .YearLabel.is-appearing .YearLabel--line:nth-of-type(3) {
+        -webkit-transition-delay: 0.6s;
+        transition-delay: 0.6s;
+      }
+      .YearLabel.is-appearing .YearLabel--line:nth-of-type(4) {
+        -webkit-transition-delay: 0.8s;
+        transition-delay: 0.8s;
+      }
+      .YearLabel.is-appearing .YearLabel--line:nth-of-type(5) {
+        -webkit-transition-delay: 1s;
+        transition-delay: 1s;
+      }
+      .YearLabel.is-appearing .YearLabel--line:nth-of-type(6) {
+        -webkit-transition-delay: 1.2s;
+        transition-delay: 1.2s;
+      }
+      .YearLabel.is-appearing .YearLabel--line:nth-of-type(7) {
+        -webkit-transition-delay: 1.4s;
+        transition-delay: 1.4s;
+      }
+      .YearLabel.is-appearing .YearLabel--line:nth-of-type(8) {
+        -webkit-transition-delay: 1.6s;
+        transition-delay: 1.6s;
+      }
+      .YearLabel.is-appearing .YearLabel--line:nth-of-type(9) {
+        -webkit-transition-delay: 1.8s;
+        transition-delay: 1.8s;
+      }
+      .YearLabel.is-appearing .YearLabel--line:nth-of-type(10) {
+        -webkit-transition-delay: 2s;
+        transition-delay: 2s;
+      }
+      .YearLabel.is-appearing .YearLabel--line:nth-of-type(n + 11) {
+        -webkit-transition-delay: 2s;
+        transition-delay: 2s;
+      }
+      .YearLabel.is-disappearing .YearLabel--line:nth-of-type(n) {
+        -webkit-transition-delay: 0s !important;
+        transition-delay: 0s !important;
+      }
+      .YearLabel--year {
+        display: none;
+        font-size: 12vmin;
+        font-weight: 900;
+        opacity: 0;
+        will-change: opacity;
+      }
+      .YearLabel.is-active .YearLabel--year {
+        will-change: auto;
+        -webkit-transition: opacity 1s linear;
+        transition: opacity 1s linear;
+        opacity: 0.1;
+      }
+      html.has-intro {
+        overflow: hidden;
+      }
+      #logo {
+        pointer-events: none;
+        z-index: 1;
+        position: fixed;
+        top: 20px;
+        left: 30px;
+        width: calc(150px + 8vmin);
+        height: calc(150px + 8vmin);
+        opacity: 0;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        will-change: opacity, transform;
+      }
+      @media (max-width: 750px) {
+        #logo {
+          left: 15px;
+        }
+      }
+      #logo.is-active {
+        will-change: auto;
+        -webkit-transition: opacity 0.5s linear,
+          -webkit-transform 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: opacity 0.5s linear,
+          -webkit-transform 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: opacity 0.5s linear,
+          transform 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: opacity 0.5s linear,
+          transform 0.75s cubic-bezier(0.165, 0.84, 0.44, 1),
+          -webkit-transform 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+      #logo::before {
+        content: "";
+        display: block;
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 200%;
+        height: 200%;
+        background-image: radial-gradient(
+          circle closest-side,
+          #050129,
+          #050129 40%,
+          transparent
+        );
+      }
+      @media (max-width: 750px) {
+        #logo::before {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      #logo svg {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      #logo svg text {
+        font-weight: 900;
+        stroke: #ff649f;
+        opacity: 0.75;
+      }
+      .js-vr {
+        -webkit-appearance: none;
+        background: 0 0;
+        border: 0;
+        opacity: 0.4;
+      }
+      .js-vr > svg {
+        width: 24px !important;
+        height: 24px !important;
+      }
+      html:not(.touch) .js-vr {
+        display: none;
+      }
+      html.vr #logo {
+        display: none;
+      }
+      html.vr #nav > :not(.js-vr) {
+        display: none;
+      }
+      html.vr .js-vr {
+        visibility: visible;
+        font-weight: 700;
+        opacity: 1;
+      }
+      #nav {
+        z-index: 1;
+        position: fixed;
+        top: 20px;
+        right: 40px;
+        height: 40px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        opacity: 0;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        will-change: opacity, transform;
+      }
+      @media (max-width: 750px) {
+        #nav {
+          right: 20px;
+        }
+      }
+      #nav.is-active {
+        will-change: auto;
+        -webkit-transition: opacity 0.5s linear,
+          -webkit-transform 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: opacity 0.5s linear,
+          -webkit-transform 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: opacity 0.5s linear,
+          transform 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: opacity 0.5s linear,
+          transform 0.75s cubic-bezier(0.165, 0.84, 0.44, 1),
+          -webkit-transform 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+      #nav a {
+        position: relative;
+        display: inline-block;
+        line-height: 0;
+        color: #fff;
+        text-decoration: none;
+        margin-left: 1.5em;
+      }
+      #nav a::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 4.2em;
+        height: 4.2em;
+        background-image: radial-gradient(
+          circle closest-side,
+          rgba(255, 255, 255, 0.25),
+          transparent
+        );
+        opacity: 0;
+        -webkit-transition: opacity 0.35s ease-out;
+        transition: opacity 0.35s ease-out;
+      }
+      #nav a:hover::before {
+        opacity: 1;
+      }
+      #nav svg {
+        height: 1.4em;
+        width: 1.4em;
+      }
+      #nav path {
+        fill: #fff;
+      }
+      #cover {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+      }
+      #cover img {
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        -o-object-position: center;
+        object-position: center;
+        opacity: 0.1;
+      }
+      #log {
+        pointer-events: none;
+        z-index: 1000;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        max-width: 30em;
+        padding: 40px;
+        opacity: 0.5;
+      }
+      .rank {
+        font-size: 13px;
+        display: block;
+        width: 2em;
+        height: 2em;
+        border-radius: 2em;
+        color: rgba(0, 0, 0, 0.7);
+        background: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        line-height: 2.1em;
+        margin-top: calc(-1em - 1px);
+        margin-left: calc(-1em - 1px);
+        z-index: 1;
+      }
+      .rank::before {
+        content: "";
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        bottom: 25%;
+        right: 25%;
+        border-radius: inherit;
+        background: inherit;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Stage">
+      <h1 class="visuallyhidden">SRF3 Hitparade 50</h1>
+      <p class="visuallyhidden">
+        This 3D web experience uses WebGL and isn't accessible to screen
+        readers. Please hop over to
+        <a href="https://www.hitparade.ch">Hitparade Website</a> to browse those
+        songs and get additional info.
+      </p>
+      <div id="logo">
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          width="200"
+          height="109"
+          viewBox="0 0 200 109"
+        >
+          <g
+            fill="none"
+            stroke="black"
+            stroke-width="1"
+            style="font-size: 25px"
+          >
+            <text x="0" y="25">50</text>
+            <text x="0" y="50">YEARS</text>
+            <text x="0" y="75">SWISS MUSIC</text>
+            <text x="0" y="100">CHARTS</text>
+          </g>
+        </svg>
+      </div>
+      <nav id="nav">
+        <button class="js-vr" type="button">
+          <svg
+            width="24"
+            height="24"
+            viewbox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g fill="none" fill-rule="evenodd">
+              <path
+                d="M20.636 6H3.2C2.549 6 2 6.568 2 7.27V17.71c0 .701.548 1.27 1.225 1.27h4.763c.51 0 .948-.325 1.132-.785l1.386-3.467c.233-.585.789-.996 1.438-.996.648 0 1.204.411 1.437.996l1.386 3.467c.184.46.621.784 1.106.784h4.763c.703 0 1.251-.568 1.251-1.269V7.27c0-.7-.548-1.269-1.25-1.269zM7.433 14.774c-1.218 0-2.205-1.022-2.205-2.284 0-1.262.987-2.284 2.205-2.284s2.203 1.022 2.203 2.284c0 1.262-.987 2.284-2.203 2.284zm9.022 0c-1.218 0-2.204-1.022-2.204-2.284 0-1.261.986-2.283 2.204-2.283 1.218 0 2.204 1.022 2.204 2.283 0 1.262-.986 2.283-2.204 2.283z"
+                fill="#FFFFFF"
+              />
+            </g>
+          </svg>
+        </button>
+        <a href="#about">
+          <span class="visuallyhidden">Open About Overlay</span>
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            width="408px"
+            height="408px"
+            viewBox="0 0 408 408"
+          >
+            <path
+              d="M51,153c-28.05,0-51,22.95-51,51s22.95,51,51,51s51-22.95,51-51S79.05,153,51,153z M357,153c-28.05,0-51,22.95-51,51s22.95,51,51,51s51-22.95,51-51S385.05,153,357,153z M204,153c-28.05,0-51,22.95-51,51s22.95,51,51,51s51-22.95,51-51S232.05,153,204,153z"
+            />
+          </svg>
+        </a>
+        <a href="#help">
+          <span class="visuallyhidden">Open Help Overlay</span>
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 23.625 23.625"
+          >
+            <path
+              d="M11.812,0C5.289,0,0,5.289,0,11.812s5.289,11.813,11.812,11.813s11.813-5.29,11.813-11.813
+						S18.335,0,11.812,0z M14.271,18.307c-0.608,0.24-1.092,0.422-1.455,0.548c-0.362,0.126-0.783,0.189-1.262,0.189
+						c-0.736,0-1.309-0.18-1.717-0.539s-0.611-0.814-0.611-1.367c0-0.215,0.015-0.435,0.045-0.659c0.031-0.224,0.08-0.476,0.147-0.759
+						l0.761-2.688c0.067-0.258,0.125-0.503,0.171-0.731c0.046-0.23,0.068-0.441,0.068-0.633c0-0.342-0.071-0.582-0.212-0.717
+						c-0.143-0.135-0.412-0.201-0.813-0.201c-0.196,0-0.398,0.029-0.605,0.09c-0.205,0.063-0.383,0.12-0.529,0.176l0.201-0.828
+						c0.498-0.203,0.975-0.377,1.43-0.521c0.455-0.146,0.885-0.218,1.29-0.218c0.731,0,1.295,0.178,1.692,0.53
+						c0.395,0.353,0.594,0.812,0.594,1.376c0,0.117-0.014,0.323-0.041,0.617c-0.027,0.295-0.078,0.564-0.152,0.811l-0.757,2.68
+						c-0.062,0.215-0.117,0.461-0.167,0.736c-0.049,0.275-0.073,0.485-0.073,0.626c0,0.356,0.079,0.599,0.239,0.728
+						c0.158,0.129,0.435,0.194,0.827,0.194c0.185,0,0.392-0.033,0.626-0.097c0.232-0.064,0.4-0.121,0.506-0.17L14.271,18.307z
+						 M14.137,7.429c-0.353,0.328-0.778,0.492-1.275,0.492c-0.496,0-0.924-0.164-1.28-0.492c-0.354-0.328-0.533-0.727-0.533-1.193
+						c0-0.465,0.18-0.865,0.533-1.196c0.356-0.332,0.784-0.497,1.28-0.497c0.497,0,0.923,0.165,1.275,0.497
+						c0.353,0.331,0.53,0.731,0.53,1.196C14.667,6.703,14.49,7.101,14.137,7.429z"
+            />
+          </svg>
+        </a>
+      </nav>
+      <div class="YearLabel">
+        <h2 class="YearLabel--intro">
+          <span class="YearLabel--large">
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="164"
+              height="164"
+              viewBox="0 0 164 164"
+            >
+              <text
+                x="0"
+                y="120"
+                fill="none"
+                stroke="black"
+                stroke-width="1"
+                style="font-size: 120px"
+                class="js-yearCount"
+              >
+                50
+              </text>
+            </svg>
+          </span>
+          <span class="YearLabel--small">
+            <span class="YearLabel--line">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="400"
+                height="68"
+                viewBox="0 0 400 68"
+              >
+                <text
+                  x="0"
+                  y="50"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="0.75"
+                  style="font-size: 50px"
+                >
+                  YEARS
+                </text>
+              </svg>
+            </span>
+            <span class="YearLabel--line">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                width="400"
+                height="68"
+                viewBox="0 0 400 68"
+              >
+                <text
+                  x="0"
+                  y="50"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="0.75"
+                  style="font-size: 50px"
+                >
+                  SWISS MUSIC
+                </text>
+              </svg>
+            </span>
+            <span class="YearLabel--line">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                width="400"
+                height="68"
+                viewBox="0 0 400 68"
+              >
+                <text
+                  x="0"
+                  y="50"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="0.75"
+                  style="font-size: 50px"
+                >
+                  CHARTS
+                </text>
+              </svg>
+            </span>
+          </span>
+        </h2>
+        <h3 id="year" class="YearLabel--year"></h3>
+      </div>
+      <p id="loading" class="LoadingLabel">
+        Doing some magic ... hang on a second.
+      </p>
+      <p id="vr-orientation-message" class="LoadingLabel">
+        Turn your screen to landscape
+      </p>
+      <div class="TutorialText">Scroll to explore</div>
+      <button class="recenter-button js-reset-orientation">
+        <i>⊕</i> Recenter
+      </button>
+      <p id="log"></p>
+      <div class="Stage--canvas"></div>
+    </div>
+    <div class="Overlay" id="about">
+      <div class="Overlay--content">
+        <h3 class="visuallyhidden">About</h3>
+        <a href="http://www.hitparade.ch" target="_blank">
+          <img
+            class="Overlay--logo Overlay--logo-small"
+            src="media/logo-hitparade.png"
+            style="height: 20px; margin-bottom: 1em"
+            alt="hitparade.ch"
+          />
+        </a>
+        <p>
+          This experience (rank 1-15) is made possible with the data of
+          <a href="https://hitparade.ch/" target="_blank">hitparade.ch</a> and
+          Spotify
+        </p>
+        <p style="margin-top: 2em">
+          EXPLORE ALL 10'939 SONGS AND ANALYSES ON:
+          <a href="https://50-jahre-hitparade.ch/analysis" target="_blank"
+            >50-jahre-hitparade.ch/analysis</a
+          >
+        </p>
+        <hr />
+        <h4>Idea, Concept & Data analysis</h4>
+        <a href="http://www.d1-solutions.com" target="_blank">
+          <span class="visuallyhidden">D ONE</span>
+          <img
+            class="Overlay--logo Overlay--logo-small"
+            src="media/logo-d-one.png"
+            alt="D ONE Logo"
+          />
+        </a>
+        <h4>Concept, Design & Development</h4>
+        <a href="http://www.hinderlingvolkart.com/" target="_blank">
+          <span class="visuallyhidden">Hinderling Volkart</span>
+          <img
+            class="Overlay--logo Overlay--logo-large"
+            src="media/logo-hv.png"
+            alt="Hinderling Volkart Logo"
+          />
+        </a>
+        <h4>General Contact</h4>
+        <p>
+          <a href="mailto:dj@50-jahre-hitparade.ch">dj@50-jahre-hitparade.ch</a>
+        </p>
+        <p style="margin-top: 3em">© 2018 D ONE & HINDERLING VOLKART</p>
+      </div>
+      <button class="Overlay--close">
+        <span class="visuallyhidden">Close About Overlay</span>
+        <span class="Overlay--closeHover"></span>
+      </button>
+    </div>
+    <div class="Overlay" id="mobile">
+      <div class="Overlay--content">
+        <img
+          src="media/headphone.svg"
+          style="width: 100px; margin-bottom: 2em"
+        />
+        <p>Unmute your phone or simply use your headphones.</p>
+        <p>Just swipe with your finger up and down to explore the years.</p>
+      </div>
+      <button class="Overlay--close">
+        <span class="visuallyhidden">Close About Overlay</span>
+        <span class="Overlay--closeHover"></span>
+      </button>
+    </div>
+    <div class="Overlay" id="help">
+      <div class="Overlay--content">
+        <h3 class="visuallyhidden">Help</h3>
+        <div class="visuallyhidden">
+          <h4>Line Connection</h4>
+          <p>Reflects the chart progress.</p>
+          <h4>Numbering Circle</h4>
+          <p>Indicates the song's top ranking.</p>
+          <h4>Size and Off-Center Position</h4>
+          <p>Reflects the ranking.</p>
+          <h4>Vertcial Position</h4>
+          <p>
+            Reflects the song's valance. The more on the left, the sadder, the
+            more on the right, the happier.
+          </p>
+        </div>
+        <img src="media/help.png" alt="Help infographic" />
+      </div>
+      <button class="Overlay--close">
+        <span class="visuallyhidden">Close Help Overlay</span>
+        <span class="Overlay--closeHover"></span>
+      </button>
+    </div>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Object.values"></script>
+    <script type="text/javascript" src="js/libs/three.min.js"></script>
+    <script type="text/javascript" src="js/libs/Tween.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+      eval(
+        (function (t, e, n, r, o, c) {
+          if (
+            ((o = function (t) {
+              return t.toString(31);
+            }),
+            !"".replace(/^/, String))
+          ) {
+            for (; n--; ) c[o(n)] = r[n] || o(n);
+            (r = [
+              function (t) {
+                return c[t];
+              },
+            ]),
+              (o = function () {
+                return "\\w+";
+              }),
+              (n = 1);
+          }
+          for (; n--; )
+            r[n] &&
+              (t = t.replace(new RegExp("\\b" + o(n) + "\\b", "g"), r[n]));
+          return t;
+        })(
+          "4 7=g.b;4 2=3.p('r');2.9='a/5';2.c='d';2.e=('6:'==3.u.h?'6:':'i:')+'//j.k.l/t/1.5?m=n&o='+7;(3.8('q')[0]||3.8('s')[0]).f(2);",
+          0,
+          31,
+          "||mtiTracking|document|var|css|https|projectId|getElementsByTagName|type|text|MTIProjectId|rel|stylesheet|href|appendChild|window|protocol|http|fast|fonts|net|apiType|css|projectid|createElement|head|link|body||location".split(
+            "|"
+          ),
+          0,
+          {}
+        )
+      );
+    </script>
+  </body>
+</html>

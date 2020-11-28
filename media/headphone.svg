@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="56px" viewBox="0 0 68 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="headphone-2" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M68,38.7692308 L68,47.3846154 C68,52.1424615 64.194125,56 59.5,56 C57.1508125,56 55.25,54.07325 55.25,51.6923077 L55.25,25.8461538 C55.25,13.9495192 45.7373047,4.30769231 34,4.30769231 C22.2648203,4.30769231 12.75,13.9495192 12.75,25.8461538 L12.75,51.6923077 C12.75,54.0733846 10.8490547,56 8.5,56 C3.805875,56 0,52.1424615 0,47.3846154 L0,38.7692308 C0,34.0113846 3.805875,30.1538462 8.5,30.1538462 L8.5,25.8461538 C8.5,11.57275 19.9177578,0 34,0 C48.0822422,0 59.5,11.57275 59.5,25.8461538 L59.5,30.1538462 C64.194125,30.1538462 68,34.0113846 68,38.7692308 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
